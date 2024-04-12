@@ -269,6 +269,7 @@
       "8-security-and-compliance",
       "9-community-and-support",
       "TableOfContents",
+      "a-brief-spicedb-history-lesson",
       "buttonColorMode",
       "conclusion",
       "configuration",
@@ -292,9 +293,11 @@
       "searchToggleDesktop",
       "searchToggleMobile",
       "socialMenu",
+      "spicedb-features",
       "spicedb-library-usage-guide-for-aspnet",
       "toTop",
-      "toc"
+      "toc",
+      "what-is-spicedb"
     ]
   }
 }
