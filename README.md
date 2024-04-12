@@ -1,40 +1,12 @@
 # SpiceDb Documentation
 
-Welcome to the documentation for SpiceDb - Seamlessly blend the power of Razor Components with Asp.net and HTMX.
+Welcome to the documentation for SpiceDb
 
-<img src="https://jalexsocial.github.io/spicedb.docs/images/SpiceDb-logo.png" height="160px"/>
+<img src="https://jalexsocial.github.io/spicedb.docs/images/spicedb-logo.png" height="160px"/>
 
 ## Documentation Site
 
 For detailed documentation and examples, please visit the [SpiceDb Documentation Site](https://jalexsocial.github.io/spicedb.docs/).
-
-## Introduction
-
-SpiceDb is a lightweight library that enhances Asp.net MVC applications by seamlessly integrating Razor components for UI development and working harmoniously with HTMX for progressive enhancement. With SpiceDb, you can leverage the power of Razor components to create dynamic and interactive user interfaces while ensuring a smooth user experience through HTMX.
-
-### Why SpiceDb?
-
-SpiceDb combines the strengths of Razor Components with the seamless integration of HTMX, offering a powerful solution for Asp.net MVC developers looking to enhance their applications with modern UI development practices.
-
-## Features
-
-- **Razor Component Integration:** Easily use Razor components within your Asp.net MVC views, enhancing the modularity and maintainability of your UI code.
-
-- **HTMX Compatibility:** SpiceDb works effortlessly with HTMX, enabling progressive enhancement for your MVC applications. Make your web pages dynamic and interactive without compromising on performance.
-
-- **Simplified Syntax:** SpiceDb simplifies the integration process, allowing developers to seamlessly blend Razor components and HTMX features into their existing MVC projects.
-
-- **Efficient Development:** Leverage the benefits of Razor Components for efficient and structured UI development, resulting in more maintainable and scalable applications.
-
-## How to Contribute
-
-We welcome contributions to the SpiceDb project. If you'd like to get involved, please check out the following resources:
-
-- [Doks Documentation](https://getdoks.org/docs/start-here/getting-started/): Doks is the main documentation theme used in this project.
-
-- [Hyas Documentation](https://docs.gethyas.com/getting-started/): Hyas is the documentation framework for Doks.
-
-- [Hugo Documentation](https://gohugo.io/documentation/): Hugo is the generator for static sites and powers our documentation site.
 
 ## License
 
