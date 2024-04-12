@@ -1,15 +1,15 @@
 ---
-title: "Reference"
+title: "Installation"
 description: ""
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
-draft: false
+date: 2024-02-05T12:11:06-05:00
+lastmod: 2024-02-05T12:11:06-05:00
+draft: true
 menu:
   docs:
     parent: ""
-    identifier: "reference-22e9ba8aefa7ef9891199cf8db3a08cd"
-weight: 900
+    identifier: "installation-f5f8e0d74af836b9b7bbce3190ef96a5"
+weight: 999
 toc: true
 seo:
   title: "" # custom title (optional)

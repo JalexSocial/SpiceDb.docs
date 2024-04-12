@@ -1,5 +1,5 @@
-title = "Rizzy Documentation"
-baseurl = "https://jalexsocial.github.io/SpiceDb.docs/"
+title = "SpiceDb Documentation"
+baseurl = "https://jalexsocial.github.io/spicedb.docs/"
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true

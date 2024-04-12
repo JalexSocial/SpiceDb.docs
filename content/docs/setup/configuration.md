@@ -1,15 +1,15 @@
 ---
-title: "Reference"
+title: "Configuration"
 description: ""
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
-draft: false
+date: 2024-02-05T12:11:14-05:00
+lastmod: 2024-02-05T12:11:14-05:00
+draft: true
 menu:
   docs:
     parent: ""
-    identifier: "reference-22e9ba8aefa7ef9891199cf8db3a08cd"
-weight: 900
+    identifier: "configuration-be70964b9b567d4835367cec7c3d7c1b"
+weight: 999
 toc: true
 seo:
   title: "" # custom title (optional)
