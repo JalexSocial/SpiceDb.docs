@@ -13,3 +13,33 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+Asynchronously reads a set of relationships matching one or more filters.
+
+**Parameters**
+
+- `resource` - The filter to apply to the resource part of the relationships.
+- `subject` (optional) - An optional filter to apply to the subject part of the relationships.
+- `excludePrefix` (optional) - Indicates whether the prefix should be excluded from the response.
+- `zedToken` (optional) - An optional ZedToken for specifying a version of the data to read.
+- `cacheFreshness` (optional) - Specifies the acceptable freshness of the data to be read from the cache.
+
+**Returns**
+
+- An async enumerable of `ReadRelationshipsResponse` objects matching the specified filters.
+
+
+## Example
+
+```csharp
+var client = new SpiceDbClient("your_token", "your_schema_prefix");
+var resourceFilter = new RelationshipFilter { Type = "document" };
+var subjectFilter = new RelationshipFilter { Type = "user" };
+
+// Asynchronously retrieve relationships that match the specified filters.
+await foreach (var response in client.ReadRelationshipsAsync(resourceFilter, subjectFilter))
+{
+    Console.WriteLine($"Resource: {response.Relationship.Resource}");
+    Console.WriteLine($"Relation: {response.Relationship.Relation}");
+    Console.WriteLine($"Subject: {response.Relationship.Subject}");
+}
+```

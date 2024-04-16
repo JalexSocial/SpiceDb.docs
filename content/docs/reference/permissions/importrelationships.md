@@ -13,3 +13,12 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+Imports relationships into SpiceDB from a provided string.
+
+**Parameters**
+
+- `content` - The relationships to import, provided as a string.
+
+**Returns**
+
+- A task representing the asynchronous operation, with a `ZedToken?` indicating the version of the data after the import operation.

@@ -13,3 +13,14 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+Adds or updates a single relationship.
+
+**Parameters**
+
+- `relation` - The relationship to add or update.
+
+**Returns**
+
+- A task representing the asynchronous operation, with a `ZedToken` indicating the version of the data after the operation.
+
