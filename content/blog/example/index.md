@@ -1,5 +1,5 @@
 ---
-title: "Welcome to SpiceDb C# Client"
+title: "Welcome to SpiceDb.net"
 description: "We are just getting started."
 summary: ""
 date: 2023-09-07T16:27:22+02:00
